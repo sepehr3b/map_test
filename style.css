@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: shabnam;
+    src: url('fonts/shabnam-font-v2.1.1/Farsi-Digits/Shabnam-FD.woff');
+}
+@font-face {
+    font-family: shabnam-light;
+    src: url('fonts/shabnam-font-v2.1.1/Farsi-Digits/Shabnam-Light-FD.woff');
+}
+@font-face {
+    font-family: shabnam-bold;
+    src: url('fonts/shabnam-font-v2.1.1/Farsi-Digits/Shabnam-Bold-FD.woff');
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+*{
+    font-family: shabnam;
+
+}
+
+p,h1,h2,h3,h4,h5,h6,a,label{
+    font-family: shabnam !important;
+}

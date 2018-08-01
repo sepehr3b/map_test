@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="uikit-3.0.0-rc.10/css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="uikit-3.0.0-rc.10/js/uikit.min.js"></script>
+    <script src="uikit-3.0.0-rc.10/js/uikit-icons.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="uk-text-center uk-container ">
+
+        <div class="uk-inline uk-dark">
+            <img src="download.jpg" alt="">
+            <a class="uk-position-absolute uk-transform-center uk-label uk-label-success" style="left: 40%; top: 20%" ng-click="text = 'مینودر و پونک'" >منطقه1</a>
+            <a class="uk-position-absolute uk-transform-center uk-label uk-label-success" style="left: 30%; top: 50%" ng-click="text = 'خیابان دانشگاه'"  >منطقه2</a>
+            <a class="uk-position-absolute uk-transform-center uk-label uk-label-success" style="left: 30%; top: 75%" ng-click="text = 'ترمینال'"  >منطقه3</a>
+        </div>
+
+
+    </div>
+    <div class="uk-text-center">
+        <span class="uk-label uk-label-danger uk-text-center">نام منطقه : {{text}}</span>
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
